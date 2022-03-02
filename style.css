@@ -1,3 +1,23 @@
 *, *::after, *::before{
     box-sizing: border-box;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.board{
+   display: grid;
+   grid-template-columns: repeat(3,auto); 
+}
+.cell{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
 }
